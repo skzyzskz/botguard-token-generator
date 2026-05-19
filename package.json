@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bgutils-js": "^3.2.0",
+    "curl-cffi": "^0.1.50",
+    "happy-dom": "^20.9.0"
+  },
+  "scripts": {
+    "postinstall": "node scripts/patch-curl-cffi.cjs"
+  }
+}
